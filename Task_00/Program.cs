@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите число: ");
+﻿// Возведение числа в квадрат
+
+Console.WriteLine("Введите число: ");
 double x = double.Parse(Console.ReadLine());
 Console.WriteLine("Квадрат числа равен: ");
-Console.WriteLine(x*x);
+Console.WriteLine(Math.Pow(x, 2));
