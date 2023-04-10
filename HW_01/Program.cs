@@ -1,17 +1,18 @@
-﻿// Максимальное и минимальное из 2 чисел
+﻿// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее
 
 Console.Clear();
 Console.Write("Введите первое число: ");
-int x = int.Parse(Console.ReadLine());
+double x = double.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
-int y = int.Parse(Console.ReadLine());
+double y = double.Parse(Console.ReadLine());
 
 if(x > y)
 {
     Console.WriteLine($"Максимальное число: {x}");
     Console.WriteLine($"Минимальное число: {y}");
 }
-else{
+else
+{
     Console.WriteLine($"Максимальное число: {y}");
     Console.WriteLine($"Минимальное число: {x}");
 }

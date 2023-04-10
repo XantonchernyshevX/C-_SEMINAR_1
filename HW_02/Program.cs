@@ -1,10 +1,10 @@
-﻿// Найти максимальное из трех чисел
+﻿// Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
 
 Console.Clear();
 Console.Write("Введите первое число: ");
-int x = int.Parse(Console.ReadLine());
+double x = double.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
-int y = int.Parse(Console.ReadLine());
+double y = double.Parse(Console.ReadLine());
 Console.Write("Введите третье число: ");
-int z = int.Parse(Console.ReadLine());
+double z = double.Parse(Console.ReadLine());
 Console.Write("Максимальное число: "+(Math.Max(x, Math.Max(y, z))));
