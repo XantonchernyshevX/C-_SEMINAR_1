@@ -1,5 +1,6 @@
 ﻿// Максимальное и минимальное из 2 чисел
 
+Console.Clear();
 Console.Write("Введите первое число: ");
 int x = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
