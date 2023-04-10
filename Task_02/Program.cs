@@ -1,5 +1,6 @@
 ﻿// Выдает день недели по заданому числу
 
+Console.Clear();
 string day1 = "Понедельник";
 string day2 = "Вторник";
 string day3 = "Среда";
